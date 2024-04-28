@@ -9,36 +9,37 @@
                 "id_1",
                 "id_2",
                 "id_3",
-                "id_4"
+                "id_4",
+                "id_6"
             ],
-            "childrenCount": 4
+            "childrenCount": 5
         },
         "id_1": {
             "id": "id_1",
             "name": "test.html",
             "size": 124,
-            "modDate": "2024-04-28T07:56:24.278Z",
+            "modDate": "2024-04-28T08:33:11.015Z",
             "parentId": "id_0"
         },
         "id_2": {
             "id": "id_2",
             "name": "test123",
             "size": 6,
-            "modDate": "2024-04-28T07:56:24.278Z",
+            "modDate": "2024-04-28T08:33:11.015Z",
             "parentId": "id_0"
         },
         "id_3": {
             "id": "id_3",
             "name": "test3.html",
             "size": 124,
-            "modDate": "2024-04-28T07:56:24.278Z",
+            "modDate": "2024-04-28T08:33:11.015Z",
             "parentId": "id_0"
         },
         "id_4": {
             "id": "id_4",
             "name": "testDir",
             "isDir": true,
-            "modDate": "2024-04-28T07:56:24.278Z",
+            "modDate": "2024-04-28T08:33:11.015Z",
             "childrenIds": [
                 "id_5"
             ],
@@ -49,8 +50,15 @@
             "id": "id_5",
             "name": "test4.html",
             "size": 124,
-            "modDate": "2024-04-28T07:56:24.278Z",
+            "modDate": "2024-04-28T08:33:11.015Z",
             "parentId": "id_4"
+        },
+        "id_6": {
+            "id": "id_6",
+            "name": "testmd.md",
+            "size": 8,
+            "modDate": "2024-04-28T08:33:11.015Z",
+            "parentId": "id_0"
         }
     }
 }
