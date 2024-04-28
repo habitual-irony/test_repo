@@ -3,156 +3,54 @@
     "fileMap": {
         "id_0": {
             "id": "id_0",
-            "name": "myfiles",
+            "name": "fileTest",
             "isDir": true,
             "childrenIds": [
                 "id_1",
                 "id_2",
-                "id_6",
-                "id_14",
-                "id_15",
-                "id_16",
-                "id_17"
+                "id_3",
+                "id_4"
             ],
-            "childrenCount": 7
+            "childrenCount": 4
         },
         "id_1": {
             "id": "id_1",
-            "name": "README.md",
-            "size": 3,
-            "modDate": "2024-04-17T11:02:47.390Z",
+            "name": "test.html",
+            "size": 124,
+            "modDate": "2024-04-28T07:56:24.278Z",
             "parentId": "id_0"
         },
         "id_2": {
             "id": "id_2",
-            "name": "handsontable",
-            "isDir": true,
-            "modDate": "2024-04-17T11:02:47.390Z",
-            "childrenIds": [
-                "id_3",
-                "id_4",
-                "id_5"
-            ],
-            "childrenCount": 3,
+            "name": "test123",
+            "size": 6,
+            "modDate": "2024-04-28T07:56:24.278Z",
             "parentId": "id_0"
         },
         "id_3": {
             "id": "id_3",
-            "name": "data1.json",
-            "size": 0,
-            "modDate": "2024-04-17T11:02:47.390Z",
-            "parentId": "id_2"
+            "name": "test3.html",
+            "size": 124,
+            "modDate": "2024-04-28T07:56:24.278Z",
+            "parentId": "id_0"
         },
         "id_4": {
             "id": "id_4",
-            "name": "data2.json",
-            "size": 0,
-            "modDate": "2024-04-17T11:02:47.390Z",
-            "parentId": "id_2"
+            "name": "testDir",
+            "isDir": true,
+            "modDate": "2024-04-28T07:56:24.278Z",
+            "childrenIds": [
+                "id_5"
+            ],
+            "childrenCount": 1,
+            "parentId": "id_0"
         },
         "id_5": {
             "id": "id_5",
-            "name": "data3.json",
-            "size": 2,
-            "modDate": "2024-04-17T11:02:47.390Z",
-            "parentId": "id_2"
-        },
-        "id_6": {
-            "id": "id_6",
-            "name": "markdown",
-            "isDir": true,
-            "modDate": "2024-04-17T11:02:47.390Z",
-            "childrenIds": [
-                "id_7",
-                "id_8",
-                "id_9",
-                "id_13"
-            ],
-            "childrenCount": 4,
-            "parentId": "id_0"
-        },
-        "id_7": {
-            "id": "id_7",
-            "name": "LISENCE.md",
-            "size": 24,
-            "modDate": "2024-04-17T11:02:47.390Z",
-            "parentId": "id_6"
-        },
-        "id_8": {
-            "id": "id_8",
-            "name": "Manual.md",
-            "size": 655,
-            "modDate": "2024-04-17T11:02:47.390Z",
-            "parentId": "id_6"
-        },
-        "id_9": {
-            "id": "id_9",
-            "name": "information",
-            "isDir": true,
-            "modDate": "2024-04-17T11:02:47.390Z",
-            "childrenIds": [
-                "id_10",
-                "id_11",
-                "id_12"
-            ],
-            "childrenCount": 3,
-            "parentId": "id_6"
-        },
-        "id_10": {
-            "id": "id_10",
-            "name": "info1.md",
-            "size": 28,
-            "modDate": "2024-04-17T11:02:47.390Z",
-            "parentId": "id_9"
-        },
-        "id_11": {
-            "id": "id_11",
-            "name": "info2.md",
-            "size": 21,
-            "modDate": "2024-04-17T11:02:47.390Z",
-            "parentId": "id_9"
-        },
-        "id_12": {
-            "id": "id_12",
-            "name": "info3.md",
-            "size": 28,
-            "modDate": "2024-04-17T11:02:47.390Z",
-            "parentId": "id_9"
-        },
-        "id_13": {
-            "id": "id_13",
-            "name": "test.txt",
-            "size": 6,
-            "modDate": "2024-04-17T11:02:47.390Z",
-            "parentId": "id_6"
-        },
-        "id_14": {
-            "id": "id_14",
-            "name": "package-lock.json",
-            "size": 3,
-            "modDate": "2024-04-17T11:02:47.390Z",
-            "parentId": "id_0"
-        },
-        "id_15": {
-            "id": "id_15",
-            "name": "package.json",
-            "size": 3,
-            "modDate": "2024-04-17T11:02:47.390Z",
-            "parentId": "id_0"
-        },
-        "id_16": {
-            "id": "id_16",
-            "name": "test copy.txt",
-            "size": 5,
-            "modDate": "2024-04-17T11:02:47.390Z",
-            "parentId": "id_0"
-        },
-        "id_17": {
-            "id": "id_17",
-            "name": "test.txt",
-            "size": 5,
-            "modDate": "2024-04-17T11:02:47.390Z",
-            "parentId": "id_0"
+            "name": "test4.html",
+            "size": 124,
+            "modDate": "2024-04-28T07:56:24.278Z",
+            "parentId": "id_4"
         }
     }
 }
