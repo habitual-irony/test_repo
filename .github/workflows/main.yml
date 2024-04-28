@@ -1,0 +1,37 @@
+name: Make Chonky Map
+
+on:
+  push:
+    paths:
+      - fileTest/**
+
+jobs:
+  make_chonky_map:
+    runs-on: ubuntu-latest
+
+    # Secret에 설정한 변수를 환경 변수로 설정
+    env:
+      GH_TOKEN: ${{ secrets.MY_TOKEN }}
+
+    steps:
+      - name: Wait for 5 minutes
+        run: sleep 300 # 300 seconds : 5 minutes
+
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      # library 설치
+      - name: Install dependencies
+        run: |
+          npm install @octokit/rest
+          npm install node-fetch@2
+
+      # make_dir_map.js 실행
+      - name: node make_dir_map.js
+        run: node ./actions/make_dir_map.js
+
