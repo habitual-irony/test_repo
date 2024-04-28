@@ -11,8 +11,7 @@ const octokit = new Octokit({
   },
 });
 
-const dirPath = path.resolve("./actions/myfiles");
-console.log({ dirPath });
+const dirPath = path.resolve("./fileTest");
 
 let pathIdMap = {};
 let id_counter = 0;
@@ -92,7 +91,7 @@ let initChildrenIds = getChildrenIds(dirPath);
 let fileMap = {
   id_0: {
     id: rootFolderId,
-    name: "myfiles",
+    name: "fileTest",
     isDir: true,
     childrenIds: initChildrenIds,
     childrenCount: initCount,
@@ -114,7 +113,7 @@ const getSHA = async (path) => {
 
     return result.data.sha;
   } catch (e) {
-    console.log("error : ", e);
+    console.error("error : ", e);
     return undefined;
   }
 };
@@ -147,7 +146,6 @@ const updateChonkyMap = async (json) => {
   const filePath = "actions/config/chonky_map.json";
   try {
     let response = await fileWrite(filePath, json);
-    console.log(response);
   } catch (err) {
     console.error("error : ", err);
     process.exit(1);
@@ -155,8 +153,5 @@ const updateChonkyMap = async (json) => {
 };
 
 let json = JSON.stringify({ rootFolderId, fileMap }, null, 4);
-// fs.writeFileSync("dir_map.json", json, "utf-8");
-
-console.log(json);
 
 updateChonkyMap(json);
