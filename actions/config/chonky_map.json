@@ -8,17 +8,16 @@
             "childrenIds": [
                 "id_1",
                 "id_2",
-                "id_3",
-                "id_5"
+                "id_3"
             ],
-            "childrenCount": 4,
+            "childrenCount": 3,
             "path": "/home/runner/work/test_repo/test_repo/fileTest"
         },
         "id_1": {
             "id": "id_1",
             "name": "test.html",
             "size": 124,
-            "modDate": "2024-04-29T06:11:52.935Z",
+            "modDate": "2024-04-29T06:18:50.474Z",
             "parentId": "id_0",
             "path": "/home/runner/work/test_repo/test_repo/fileTest/test.html"
         },
@@ -26,7 +25,7 @@
             "id": "id_2",
             "name": "test3.html",
             "size": 124,
-            "modDate": "2024-04-29T06:11:52.935Z",
+            "modDate": "2024-04-29T06:18:50.474Z",
             "parentId": "id_0",
             "path": "/home/runner/work/test_repo/test_repo/fileTest/test3.html"
         },
@@ -34,7 +33,7 @@
             "id": "id_3",
             "name": "testDir",
             "isDir": true,
-            "modDate": "2024-04-29T06:11:52.935Z",
+            "modDate": "2024-04-29T06:18:50.474Z",
             "childrenIds": [
                 "id_4"
             ],
@@ -46,17 +45,9 @@
             "id": "id_4",
             "name": "test4.html",
             "size": 124,
-            "modDate": "2024-04-29T06:11:52.935Z",
+            "modDate": "2024-04-29T06:18:50.474Z",
             "parentId": "id_3",
             "path": "/home/runner/work/test_repo/test_repo/fileTest/testDir/test4.html"
-        },
-        "id_5": {
-            "id": "id_5",
-            "name": "testmd.md",
-            "size": 24,
-            "modDate": "2024-04-29T06:11:52.935Z",
-            "parentId": "id_0",
-            "path": "/home/runner/work/test_repo/test_repo/fileTest/testmd.md"
         }
     }
 }
