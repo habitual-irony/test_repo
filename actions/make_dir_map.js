@@ -134,7 +134,6 @@ const fileWrite = async (path, contents) => {
       },
       content: `${Buffer.from(contents).toString("base64")}`, // or `${btoa(contents)}`
       headers: {
-        "X-GitHub-Api-Version": "2022-11-28",
       },
     }
   );
