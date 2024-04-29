@@ -64,6 +64,7 @@ let makeChonkyMap = (dir) => {
         childrenIds: getChildrenIds(itemPath),
         childrenCount: getChildrenCount(itemPath),
         parentId: pathIdMap[dir],
+        path: itemPath
       };
 
       fileMap[pathIdMap[itemPath]] = obj;
@@ -75,6 +76,7 @@ let makeChonkyMap = (dir) => {
         size: fs.statSync(itemPath).size,
         modDate: fs.statSync(itemPath).mtime,
         parentId: pathIdMap[dir],
+        path: itemPath
       };
 
       fileMap[pathIdMap[itemPath]] = obj;
@@ -95,6 +97,7 @@ let fileMap = {
     isDir: true,
     childrenIds: initChildrenIds,
     childrenCount: initCount,
+    path: dirPath
   },
 };
 
@@ -113,7 +116,6 @@ const getSHA = async (path) => {
 
     return result.data.sha;
   } catch (e) {
-    console.error("error : ", e);
     return undefined;
   }
 };
@@ -146,7 +148,6 @@ const updateChonkyMap = async (json) => {
   try {
     let response = await fileWrite(filePath, json);
   } catch (err) {
-    console.error("error : ", err);
     process.exit(1);
   }
 };
